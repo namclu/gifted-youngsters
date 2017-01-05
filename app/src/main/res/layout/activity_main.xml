@@ -5,23 +5,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     tools:context="com.example.namlu.giftedyoungsters.MainActivity">
 
     <ImageView
         android:id="@+id/iv_school_plaque"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
         android:src="@drawable/school_plaque"
         android:paddingBottom="8dp"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_vertical_margin">
 
         <!-- Headings -->
         <TextView
@@ -29,7 +26,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/business_name"
-            style="@style/TextAppearance.AppCompat.Subhead"/>
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:textAllCaps="true"/>
 
         <TextView
             android:id="@+id/tv_business_address"
@@ -38,7 +36,8 @@
             android:text="@string/business_address"
             android:paddingTop="8dp"
             style="@style/Base.TextAppearance.AppCompat.Subhead"
-            android:layout_below="@id/tv_school_name"/>
+            android:textAllCaps="true"
+            android:layout_below="@+id/tv_school_name"/>
 
         <TextView
             android:id="@+id/tv_business_description"
@@ -47,7 +46,8 @@
             android:text="@string/business_description"
             android:paddingTop="8dp"
             style="@style/Base.TextAppearance.AppCompat.Subhead"
-            android:layout_below="@id/tv_school_address"/>
+            android:textAllCaps="true"
+            android:layout_below="@+id/tv_school_address"/>
 
         <!-- Values -->
         <TextView
@@ -56,7 +56,7 @@
             android:layout_height="wrap_content"
             android:text="@string/school_name"
             android:paddingTop="8dp"
-            android:layout_below="@id/tv_business_name"/>
+            android:layout_below="@+id/tv_business_name"/>
 
         <TextView
             android:id="@+id/tv_school_address"
@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:text="@string/school_address"
             android:paddingTop="8dp"
-            android:layout_below="@id/tv_business_address"/>
+            android:layout_below="@+id/tv_business_address"/>
 
         <TextView
             android:id="@+id/tv_school_description"
@@ -72,8 +72,7 @@
             android:layout_height="wrap_content"
             android:text="@string/school_description"
             android:paddingTop="8dp"
-            android:gravity="fill_horizontal"
-            android:layout_below="@id/tv_business_description"/>
+            android:layout_below="@+id/tv_business_description"/>
 
     </RelativeLayout>
 
