@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">GiftedYoungsters</string>
+    <string name="app_name">School for Gifted Youngsters</string>
+    <string name="business_name">Business Name</string>
+    <string name="business_address">Address</string>
+    <string name="school_name">Xavier\'s School for Gifted Youngsters</string>
+    <string name="school_address">1407 Graymalkin Lane
+        \nSalem Center Westchester County
+        \nNew York
+    </string>
+    <string name="school_description">The Xavier\'s School for Gifted Youngsters is a special institute founded and led by Professor Charles Xavier to train young mutants in controlling their powers and help foster a friendly human-mutant relationship.</string>
+    <string name="business_description">Description</string>
 </resources>
